@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := mako/device-partial.mk
+LOCAL_STEM := mako/BoardConfigPartial.mk
 
-$(call inherit-product-if-exists, vendor/lge/$(LOCAL_STEM))
+-include vendor/lge/$(LOCAL_STEM)
