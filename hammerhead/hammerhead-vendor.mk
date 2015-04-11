@@ -18,6 +18,7 @@
 PRODUCT_PACKAGES := \
     LiveWallpapers \
     LiveWallpapersPicker \
+    MagicSmokeWallpapers \
     VisualizationWallpapers \
     librs_jni
 
@@ -30,10 +31,8 @@ DEVICE_PACKAGE_OVERLAYS := vendor/lge/hammerhead/overlay
 
 # Apps
 PRODUCT_PACKAGES += \
-    OmaDmclient \
     qcrilmsgtunnel \
     shutdownlistener \
-    SprintHiddenMenu \
     TimeService \
     UpdateSetting
 
